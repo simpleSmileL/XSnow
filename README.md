@@ -1,18 +1,3 @@
-![XSnowIcon](http://img.blog.csdn.net/20180126224550513)
-
-* * *
-
-# XSnow
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bfcabf1d9793485d84f090e542255710)](https://www.codacy.com/app/xiaoyaoyou1212/XSnow?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=xiaoyaoyou1212/XSnow&amp;utm_campaign=Badge_Grade) [![License](https://img.shields.io/badge/License-Apache--2.0-green.svg)](https://github.com/xiaoyaoyou1212/XSnow/blob/master/LICENSE) [![API](https://img.shields.io/badge/API-12%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=12)
-
-基于RxJava2+Retrofit2精心打造的Android基础框架，包含网络、上传、下载、缓存、事件总线、权限管理、数据库、图片加载，基本都是项目中必用功能，每个模块充分解耦，可自由拓展。
-
-XSnow，X：未知一切，取其通用之意；Snow：雪，取其纯净之意。该框架通用纯净，只依赖公共核心库。
-
-- 项目地址：[https://github.com/xiaoyaoyou1212/XSnow](https://github.com/xiaoyaoyou1212/XSnow)
-
-- 项目依赖：`compile 'com.vise.xiaoyaoyou:xsnow:2.1.9'`
 
 ### 功能简介
 
@@ -172,43 +157,5 @@ ViseHttp.CONFIG()
 -keep class com.vise.netexpand.mode.ApiResult { *; }
 ```
 
-### 注意事项
-
-- 该框架引用了日志系统和公共工具库，这两个库都很轻量级，具体使用详情可分别参考[https://github.com/xiaoyaoyou1212/ViseLog](https://github.com/xiaoyaoyou1212/ViseLog)和[https://github.com/xiaoyaoyou1212/ViseUtils](https://github.com/xiaoyaoyou1212/ViseUtils)。
-
-- 项目中的每个功能都附有使用示例，但示例可能不是很全，主要是提供一个使用的思路，有些现象需要通过查看日志才能看到，如数据库的增删改查操作、事件总线的通知功能等。
-
-- ==网络访问的API调试采用的是moco服务进行处理的，项目中有提供开启该服务的命令，需要在使用时调用命令开启该服务，还有需要将应用初始化的baseurl设置为本地电脑的IP地址。(重点注意)==
-
-- 上传文件功能由于使用的是公司内部服务器调试，所以在demo中只提供了一个使用示例，无法看到效果。
-
-### 关于我
-
-#### 一位热爱分享的技术爱好者！
-
-人生就是一场游戏，你遇到的障碍就是各种关卡，所以，让我们尽情地去攻略吧！
-
-[![Website](https://img.shields.io/badge/Website-huwei-blue.svg)](http://www.huwei.tech/)[![GitHub](https://img.shields.io/badge/GitHub-xiaoyaoyou1212-blue.svg)](https://github.com/xiaoyaoyou1212)[![CSDN](https://img.shields.io/badge/CSDN-xiaoyaoyou1212-blue.svg)](http://blog.csdn.net/xiaoyaoyou1212)
 
 
-### 最后
-
-* * *
-
-如果觉得该项目有帮助，请点下 Star，也欢迎推荐给你的朋友。
-
-* * *
-
-如果感觉自己从项目中学到了很多，请不要吝惜你的钱包给点打赏鼓励吧，一分钱也是爱呀！
-![微信支付](http://img.blog.csdn.net/20180127000514609)
-
-* * *
-
-如果有好的想法和建议，也欢迎Fork项目参与进来，使用中如果有任何问题和建议都可以进群交流，QQ群二维码如下：
-
-![QQ群](https://github.com/xiaoyaoyou1212/XSnow/blob/master/screenshot/qq_chat_first.png)
-(此群已满)
-
-![QQ群](https://github.com/xiaoyaoyou1212/XSnow/blob/master/screenshot/qq_chat_second.png)
-
-* * *
